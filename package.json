@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-bot-manager",
+  "version": "3.1.0",
+  "description": "بوت واتساب مالتي كلاينت بدرع طوارئ وكيبر داخلي",
+  "main": "manager.js",
+  "scripts": {
+    "start": "node manager.js"
+  },
+  "keywords": ["whatsapp", "bot", "multiclient", "koyeb"],
+  "author": "عمر",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.33.0",
+    "puppeteer-core": "^24.0.0"
+  }
+}

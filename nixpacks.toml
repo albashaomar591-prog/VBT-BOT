@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["chromium", "nss", "nspr", "alsa-lib", "atk", "cups", "dbus", "gtk3", "pango"]
+
+[phases.install]
+cmds = ["npm install"]
+
+[start]
+cmd = "node manager.js"
